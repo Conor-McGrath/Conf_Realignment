@@ -5,8 +5,8 @@ account: conor-mcgrath
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3457924
-bundleId: 4080087
+bundleId: 4080500
 url: https://conor-mcgrath.shinyapps.io/Conference_Realignment/
-when: 1610326123.76372
+when: 1610336467.19992
 asMultiple: FALSE
 asStatic: FALSE
