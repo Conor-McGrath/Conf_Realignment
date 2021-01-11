@@ -989,9 +989,7 @@ shinyServer(function(input, output, session) {
       group_by(Conference) %>%
       mutate(row = row_number()) %>%
       tidyr::pivot_wider(names_from = Conference, values_from = Name) %>%
-      select(-row) %>%
-      select(14, 32, 3, 11, 9, 19, 24, 13, 16, 29, 8, 5, 2, 10, 20, 30,
-             15, 17, 28, 1, 4, 6, 7, 12, 18, 21, 22, 23, 25, 26, 27, 31)
+      select(-row) 
     return(plot_data)
     
   })
